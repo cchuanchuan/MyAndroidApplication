@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+    android:layout_x="40dp"
+    android:layout_y="40dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="用户名:"/>
+    <EditText
+    android:layout_x="100dp"
+    android:layout_y="35dp"
+    android:layout_width="wrap_content"
+    android:width="600px"
+    android:layout_height="wrap_content" />
+    <TextView
+    android:layout_x="40dp"
+    android:layout_y="100dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="密  码:"/>
+    <EditText
+    android:layout_x="100dp"
+    android:layout_y="95dp"
+    android:layout_width="wrap_content"
+    android:width="600px"
+    android:layout_height="wrap_content"
+    android:password="true"/>
+
+    <Button
+    android:layout_x="160dp"
+    android:layout_y="160dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="登   录"/>
+
+</AbsoluteLayout>

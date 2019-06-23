@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册界面"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="用户名："
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/rusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请填写登录账号"
+            android:selectAllOnFocus="true"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="密码："
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/rpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"/><!--只能输入数字密码-->
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="年龄："
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/rage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"/><!--表明是数值输入框-->
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="生日："
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/rbirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"/><!--表明是数值输入框-->
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="电话号码："
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/rphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"/><!--表明是数值输入框-->
+    </TableRow>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/rloginbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="登录" />
+
+        <Button
+            android:id="@+id/rregisterbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="注册"/>
+    </LinearLayout>
+
+
+</TableLayout>
+
